@@ -1,21 +1,48 @@
-# APP-1 : requests et les routes à paramètres
+# APP-1 : requests and parmeters road: 
 
-Exercice réalisé par Adonis Dulaurent, pour Maxime Challon 
+Homework by Adonis Dulaurent, for Maxime Challon 
 
-## Objectif : 
+## goals : 
 
-- vérifier les acquis sur la structure d'une application Flask simple
-- écrire une route GET à paramètre(s)
-- découvrir et utiliser la librairie requests
-- lire de la documentation (librairie externe, et API externe)
+- verify knowledge of the structure of a simple Flask application.
+- write a GET route with parameter(s).
+- discover and learn how to use Python Requests Library.
+- read documentation for exertern Python Library and extern API.
 
-## Exercice : 
+## Exercise : 
 
-- Créer une route Flask nommée retrieve_wikidata acceptant un paramètre id (un identifiant Wikidata).
-- Utiliser la bibliothèque requests pour interroger l’API de Wikidata et récupérer des informations sur cet identifiant. Pour cela :
-    - Spécifier des paramètres de requête pour demander une réponse au format JSON.
-    - Décoder le contenu JSON renvoyé par l’API.
+- Create a Flask road named 'retrive_wikidata' accepting an id parameter (a wikidata identifier)
+- Use the requests library to query the Wikidata API and retrieve information about this identifier. To do this:
+    - Specify query parameters to request a response in JSON format.
+    - Decode the JSON content returned by the API.
 
-- Retourner une page HTML utilisant Jinja pour afficher :
-    -Les métadonnées de la réponse (code HTTP, type de contenu, etc.).
-    -Les données JSON de l’entité si elles sont disponibles, ou un message d’erreur si aucune donnée n’est trouvée ou que le retour contient une erreur.
+- Return an HTML page using Jinja to display :
+    -Response metadata (HTTP code, content type, etc.).
+    -The entity's JSON data if available, or an error message if no data is found or the return contains an error.
+
+## Instruction : 
+
+- 1. Open your terminal : 
+
+- 2. Install the latest version of python Python : 
+    - `sudo apt-get install python3`.
+    - `sudo apt install python3-pip`
+
+- 3. Use a specific virtual environment for this project: 
+    -`pip install virtualenv`
+    -`cd dossier_racine/`
+    -`virtualenv env -p python3`
+    - `source env/bin/activate`
+
+- 4. Install external python libraries :
+    - `pip install -r requirements.txt`
+
+- 5. Launch the application:
+    - `python3 run.py`
+
+- 6. Enjoy
+
+- 7. Disable virtual environment :
+     - `deactivate`
+
+
