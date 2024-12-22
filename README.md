@@ -46,7 +46,6 @@ Homework by Adonis Dulaurent, for Maxime Challon
 - 6. Enjoy
 
 - 7. Disable virtual environment :
-     
      - `deactivate`.
 
 
