@@ -25,16 +25,14 @@ Homework by Adonis Dulaurent, for Maxime Challon
 - 1. Open your terminal. 
 
 - 2. Install the latest version of python Python :
- 
     - `sudo apt-get install python3`.
     - `sudo apt install python3-pip`.
 
 - 3. Use a specific virtual environment for this project:
-     
-    -`pip install virtualenv`.
-    -`cd dossier_racine/`.
-    -`virtualenv env -p python3`.
-    - `source env/bin/activate`.
+     -`pip install virtualenv`.
+     -`cd dossier_racine/`.
+     -`virtualenv env -p python3`.
+     - `source env/bin/activate`.
 
 - 4. Install external python libraries :
      
