@@ -21,13 +21,13 @@
         </div>
 
         <div class="container">
-            <h3>Donnée de l'entités</h3>
+            <h3>Données de l'entité :</h3>
+            <!--Check whether JSON data has been returned -->
             {%if json%}
             <pre>{{json | tojson(indent=2)}}</pre>
             {%else%}
             <p><strong style="color:red">Aucune donné valide n'a retournée pour l'ID"{{id}}"</strong></p>
             {%endif%}
-
         </div>
     </body>
 </html>
