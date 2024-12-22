@@ -22,7 +22,7 @@ Homework by Adonis Dulaurent, for Maxime Challon
 
 ## Instruction : 
 
-- 1. Open your terminal : 
+- 1. Open your terminal. 
 
 - 2. Install the latest version of python Python : 
     - `sudo apt-get install python3`.
